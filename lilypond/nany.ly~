@@ -1,0 +1,101 @@
+\version "2.18.2"
+\header {
+  title = "Nany"
+  composer = "Joseph Colombo"
+}
+
+\score {
+\new StaffGroup <<
+\new Staff {
+    \relative c'' {
+      \clef treble
+      \key a \minor
+      \time 3/4
+      \set Score.alternativeNumberingStyle = #'numbers
+      {
+	r8 e,8 \tuplet 3/2 {fis gis a} \tuplet 3/2 {b c d} |
+	e2. |
+	d8[ c] b[ a] gis[ b] |
+	a4\staccato e2 |
+	r8 e8 dis[ e] g[ ges] |
+	f4~ \tuplet 3/2 {f8 g f} b,4 |
+	r8 b8 c[ d] e[ f] |
+	f4~ \tuplet 3/2 {f8 g f} e4 |
+	r4 f4. e8 |
+	dis8[ fis] a[ c] b[ a] |
+	gis[ b] d[ f] e[ d] |
+	c b a2 |
+	r4 \grace {b8(} a)[ gis] a[ b] |
+	c b a2 |
+	r8 gis a[ c] b[ a] |
+	b a gis2 |
+	r8 e \tuplet 3/2 {fis gis a} \tuplet 3/2 {b c d} |
+	e2. |
+	d8[ c] b[ a] gis[ b] |
+	a4\staccato e2 |
+	r8 e dis[ e] g[ ges] |
+	f4~ \tuplet 3/2 {f8 g f} b,4\staccato |
+	r8 b c[ d] e[ f] |
+	f4~ \tuplet 3/2 {f8 g f} e4\staccato |
+	r4 f~ \tuplet 3/2 {f8 e es} |
+	d[ bes] d[ f] bes[ d,] |
+	f[ bes] d[ f] d[ bes] |
+	a[ e'] c[ a] e4\staccato |
+	r8 e dis[ e] g[ ges] |
+	f4. e8 dis[ e] |
+	c'4\staccato e,8[ es] d[ b'] |
+	a2.~ | 
+	a2. \bar "|." 
+      }
+    }
+    }
+
+\new Staff {
+    \relative c'' {
+      \clef bass
+      \key a \minor
+      \time 3/4
+      \set Score.alternativeNumberingStyle = #'numbers
+r2. |
+a,,4 a'^"m" a |
+b, e^"7" e |
+c a'^"m" a |
+a, a' a |
+d, d'^"m" d |
+d, f^"M" f |
+a, a'^"m" a |
+e, a' a |
+b, b'^"7" b |
+e,, e' e |
+a, a'^"m" a |
+g, a' a |
+f, f'^"M" f |
+es, f'^"7" f |
+e, e'^"7" e |
+e, fis gis |
+a a'^"m" a |
+b, e^"7" e |
+c a'^"m" a |
+cis, a'^"7" a |
+d, d'^"m" d |
+g,, g'^"7" g |
+c, c'^"M" c |
+f,, f'^"7" f |
+b, b'^"M" b |
+b, b' b |
+a, a'^"m" a |
+c, a' a |
+b, d'^"m" d |
+e,, e'^"7" e |
+a,^"B.S." e' c |
+a2. \bar "|." 
+    }
+}
+>>
+\layout {
+  % no indent of first line (stave(s))
+    indent = #0
+  % no bar numbering
+    % \context { \Score \remove "Bar_number_engraver" }
+}
+}

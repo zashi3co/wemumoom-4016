@@ -1,0 +1,54 @@
+\version "2.18.2"
+% (fset 'insert-square-brackets-for-lilypond
+%    [?\C-s ?  return ?\C-h ?\[ ?\C-l ?\C-s ?  return ?\C-h ?\] ?\C-l])
+% (fset 'twonotessametime
+%    "<< >> \C-u4\C-h ")
+
+\header {
+  title = "In einem kühlen Grunde"
+  composer = "Friedrich Glück, Max Reger, Stefan Lukits"
+}
+
+\score {
+\new StaffGroup <<
+\new Staff {
+      \clef treble
+      \key g \major
+      \time 6/8
+      \set Score.alternativeNumberingStyle = #'numbers
+    \new Voice \relative c'' {
+      \voiceOne
+      {
+	\partial 8 d8 |
+	b4 b8 b[ a] b \bar "|." 
+      } \\
+    \new Voice \relative c'' {
+      \voiceTwo
+      {
+	\partial 8 d8 |
+j	g4 g8 g[ fis] f \bar "|." 
+      } 
+    }
+    }
+
+\new Staff {
+    \relative c'' {
+      \clef bass
+      \key a \minor
+      \time 3/4
+      \set Score.alternativeNumberingStyle = #'numbers
+      {
+        \partial 8 d8 |
+        g4 g8 g4 gis8 \bar "|." 
+	}
+    }
+    }
+
+>>
+\layout {
+  % no indent of first line (stave(s))
+    indent = #0
+  % no bar numbering
+    % \context { \Score \remove "Bar_number_engraver" }
+}
+}
