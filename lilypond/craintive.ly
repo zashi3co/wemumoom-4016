@@ -38,11 +38,10 @@ ignore = \override NoteColumn.ignore-collision = ##t
       <<d fis>> <<cis fis>> <<c fis>> |
       <<c fis>> <<c4. g'>> <<a,8 c fis>> |
       <<
-	% \override NoteColumn.ignore-collision = ##t 
       \new Voice = "first"
       { \voiceTwo g,2._( | g2) \stemDown b4 }
       \new Voice = "second"
-      { \voiceTwo b2. | b2 \stemDown b4}
+      { \voiceTwo b2.^( | b2) \stemDown b4}
       \new Voice = "third"
       { \voiceOne b'2.( | b) }
       >> |
@@ -80,7 +79,7 @@ ignore = \override NoteColumn.ignore-collision = ##t
       \new Voice = "first"
       { \voiceOne e2.( | e) }
       \new Voice = "second"
-      { \voiceTwo e,2. | e2 \stemUp e4}
+      { \voiceTwo e,2.^( | e2) \stemUp e4}
       \new Voice = "third"
       { \voiceTwo c2._( | c2) \stemUp e4 }
       >> |
@@ -90,23 +89,8 @@ ignore = \override NoteColumn.ignore-collision = ##t
       e2 d4 |
       fis8[ e d e fis g] |
       a[ b c d e fis] |
-      <<
-      % \new Voice = "first"
-      % { \voiceTwo g2.^( | g8) }
-      % \new Voice = "second"
-      % { \voiceTwo d2.^( | d8) }
-      % \new Voice = "third"
-      % { \voiceTwo b2._( | b8)  }
-      % >> r8 r8 a[ b cis] |
-      \new Voice = "first"
-      { \voiceTwo g2.^~ | g8 }
-      \new Voice = "second"
-      { \voiceTwo d2.^~ | d8 }
-      \new Voice = "third"
-      { \voiceTwo b2.~ | b8  }
-      >> r8 r8 a[ b cis] |
-      % <<g2.( d( b(>> |
-      % <<g'8) d) b)>> r8 r8 a[ b cis] |
+      <<b,2.~ d~ g~>> |
+      <<b,8 d g>> r8 r8 a,[ b cis] |
       \key d \major d4. {a8 fis a} |
       cis4. {a8 fis a} |
       b4. {a8 fis b} |
@@ -130,11 +114,10 @@ ignore = \override NoteColumn.ignore-collision = ##t
       <<d fis>> <<cis fis>> <<c fis>> |
       <<c fis>> <<c4. g'>> <<a,8 c fis>> |
       <<
-	% \override NoteColumn.ignore-collision = ##t 
       \new Voice = "first"
       { \voiceTwo g,2._( | g2) \stemDown b4 }
       \new Voice = "second"
-      { \voiceTwo b2. | b2 \stemDown b4}
+      { \voiceTwo b2.^( | b2) \stemDown b4}
       \new Voice = "third"
       { \voiceOne b'2.( | b) }
       >> |
@@ -146,6 +129,69 @@ ignore = \override NoteColumn.ignore-collision = ##t
       e2 fis4 |
       d2.~ |
       d4 r2 \bar "||"
+      \key a \major <<cis2. a'>> |
+      <<a,2 cis>> <<cis4 fis>> |
+      <<bis,2. fis'>> |
+      <<cis e>> |
+      <<
+      \new Voice = "first"
+      { \voiceOne  \tuplet 3/2 {cis8 d cis}}
+      \new Voice = "second"
+      { \voiceTwo  a4}
+      >>
+      <<gis4 b>> <<a fis>> |
+      <<e4 cis'>> <<cis4. e>> <<cis8 a'>> |
+      <<
+      \new Voice = "first"
+      { \voiceOne gis2. }
+      \new Voice = "second"
+      { \voiceTwo r4 <<e cis>> <<dis c>>}
+    >>
+      <<b2. d gis>> |
+      <<gis b>> |
+      <<fis2 d>> <<d4 gis>> |
+      <<a2. cis,>> |
+      <<cis e>> |
+      <<
+      \new Voice = "first"
+      { \voiceOne  \tuplet 3/2 {gis8 a gis}}
+      \new Voice = "second"
+      { \voiceTwo  b,4}
+      >>
+      <<dis4 fis>> <<cis e>> |
+      <<dis fis>> <<dis4. b'>> <<b,8 gis'>> |
+      <<
+      \new Voice = "first"
+      { \voiceOne  <<e2.~ gis,~>> | <<e'4 gis,>> r r}
+      \new Voice = "second"
+      { \voiceTwo  r4 fis e | d cis b}
+    >> |
+      <<cis'2. a'>> |
+      <<a,2 cis>> <<cis4 gis'>> |
+      <<fis2. bis,>> |
+      <<cis e>> |
+      <<
+      \new Voice = "first"
+      { \voiceOne  \tuplet 3/2 {cis8 d cis}}
+      \new Voice = "second"
+      { \voiceTwo  a4}
+      >>
+      <<b4 gis>> <<fis a>> |
+      <<cis4 e,>> <<cis'4. e>> <<cis8 a'>> |
+      <<b2. d,>> |
+      <<d fis>> |
+      <<
+      \new Voice = "first"
+      { \voiceOne  b,4 cis d | fis  a b }
+      \new Voice = "second"
+      { \voiceTwo  fis,2 b4 | d2 e4 }
+    >> |
+      <<a cis>> <<fis, b>> <<a cis,>> |
+      <<cis fis>> <<cis4. e>> <<cis8 a>> |
+      <<gis2. e'>> |
+      <<d2 b'>> <<e,4 cis'>> |
+      <<cis,2.~ a'~>> |
+      <<cis,4 a'>> r8 a,[ b cis] \bar "||"
     }
   }
 
@@ -267,6 +313,38 @@ ignore = \override NoteColumn.ignore-collision = ##t
       a, a' a |
       d, d' d |
       d, d' d \bar "||"
+      \key d \major e,, a' a |
+      a, a' a |
+      a, a'^"d" a |
+      a, a'^"M" a |
+      e, a' a |
+      a, a' a |
+      e, e' e |
+      e, e'^"7" e |
+      b, e'^"M" e |
+      e, e' e |
+      e, a' a |
+      a, a' a |
+      b, b'^"7" b |
+      b, b' b |
+      e,, e' e |
+      e, e' e |
+      e, a'^"M" a |
+      a, a' a |
+      a, a'^"d" a |
+      a, a'^"M" a |
+      e, a' a |
+      a, a'^"7" a |
+      a, d'^"M" d |
+      d, d' d |
+      b, b'^"m" b |
+      b, b' b |
+      e,, a'^"M" a |
+      a, a' a |
+      e, e'^"7" e |
+      e, e' e |
+      a,2.~ |
+      a4 r2 \bar "||"
 }
 >>
 }
