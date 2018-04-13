@@ -1,3 +1,4 @@
+% lilypond -dpaper-size='"letter"' craintive.ly
 \version "2.18.2"
 \header {
   title = "Craintive"
@@ -182,7 +183,7 @@ ignore = \override NoteColumn.ignore-collision = ##t
       e,, e'^"m" e |
       e, a'^"7" a |
       e, e'^"m" d, |
-      cis a''^"7" a, |
+      cis' a'^"7" a, |
       e e'^"m" e |
       a, a'^"7" a |
       cis, a'^"7" a, |
@@ -200,16 +201,16 @@ ignore = \override NoteColumn.ignore-collision = ##t
       d, d'^"7" d |
       g,, g'^"M" g |
       e, e'^"m" e |
-      b, g'^"M" g |
+      b g'^"M" g |
       g, g' g |
 %27
-      a, d' d |
+      a, d d |
       d, d' d |
       e, a'^"7" a |
       a, a' a |
-      d, d' d |
-      d, d' d \bar "||"
-      \key g \major g,, g' g |
+      d, a fis |
+      d' r2 \bar "||"
+      \key g \major g,4 g' g |
       fis, g' g |
 %35
       e, g' g |

@@ -1,15 +1,21 @@
 %PDF-1.4
 %âãÏÓ
-4 0 obj
-<</Type/XObject
-/Subtype/Image
+5 0 obj 
+<<
+/Subtype /Image
+/DecodeParms 
+<<
+/K -1
+/Rows 2700
+/Columns 3600
+>>
+/Type /XObject
+/Filter /CCITTFaxDecode
 /Width 3600
 /Height 2700
-/BitsPerComponent 1
-/ColorSpace/DeviceGray
-/Filter /CCITTFaxDecode
-/DecodeParms <</Columns 3600 /Rows 2700 /K -1>>
 /Length 226576
+/BitsPerComponent 1
+/ColorSpace /DeviceGray
 >>
 stream
 8às¢9õ‚‘ÇnĞI#½bâq(~â’ì¡ÂÁá€ød8âû)ÅĞÒÈ†ä¡®8ÁOo„GU‹ğD}r°h¡Ì91È.9ê(sPç¡È£˜s–ò jãã”9Cœr‡(r‡!Ç0åPå9C”á$#ÙVS•`FÑÑHH$‘PU‚
@@ -365,10 +371,20 @@ B]	t]B 	´!$ba0š@‚I @’!²‡ >ÍJFh§F:DDº!# ‚6„Â.ˆèº.‹¡0ˆè…¤$…¬¡é$¶"HB&
 @%ilD¡ŸGÑš0ÄyFˆ ByF„‰„]¤’A$XAi$PîÁq4"m˜@ˆˆ‚"B"B%ÑÑÒI$‚	¡ÄDWäÙ¥¨DDÚ" Bm	„aÑ@	„“I$´’	#PçÇf!(FˆˆBy	tq BBB"B$tB""‘tI$’ZYÇâ"tB'„ 	t&Ğˆˆ˜Eò:	$I ‚aªZ >ÍDÂ0ˆDDÚ:4G„H$’H$ÁRBâ-‰B'BtB"q#ÚHèº:#¢:!# ‚‚‚H šÃ
 ÑC”8Aª\€û4i‰:0Œ!DDD„DDD „!i B"Èá™ô$b HÚˆNˆÂèÑB$t!IBH¡Ê]-‰šˆº3@—Dt$tGDtBBGF Mô‚	$"‚	”? >Í(Bm‚ ‰„""BBM	$@©E„IÑB6Œ#4y@A	ÄGEĞ‘ĞA0I$BH$B4qÁ²ìÒDkB"""a‚"%Ñt$t]A¤Á%H „m®@}š4ˆhD#4$èDHèR:	 ‚h!!â$B(B&Ñ¢.‚M„GDt‘ĞA	tGICgˆ›Dè!6ˆè!!’	!HÈ³VP›F´'ˆˆ‰ÄGA"–[@}š
 „‰´'TaÑôGDtL&PàŠœ~"q	Õ@A‘Ñˆˆ¤‹¤.@}š´„£¢0¢:#á™â"m‰ôaÑtGA „sÈ´­!8‚BE(‹üDHèÂ.ˆè‚R.ƒ,yöDCBB""Hƒ´På 
-endstream
-endobj
-5 0 obj
-<</Length 6 0 R
+endstream 
+endobj 
+4 0 obj 
+<<
+/ProcSet [/PDF /ImageB]
+/XObject 
+<<
+/Im1 5 0 R
+>>
+>>
+endobj 
+6 0 obj 
+<<
+/Length 59
 >>
 stream
 0.24000 0 0 0.24000 0 0 cm
@@ -376,35 +392,34 @@ q
 3600 0 0 2700 0 0 cm
 /Im1 Do
 Q
-endstream
-endobj
-6 0 obj
-59
-endobj
-7 0 obj
-<</ProcSet[/PDF/ImageB]
-/XObject<</Im1 4 0 R>>
->>
-endobj
-8 0 obj
-<</Type/Page
+endstream 
+endobj 
+3 0 obj 
+<<
+/Resources 4 0 R
+/Rotate 270
+/Type /Page
 /Parent 1 0 R
-/Resources 7 0 R
-/MediaBox[0 0 864 648]
-/Contents 5 0 R
-/Rotate 0
+/Contents 6 0 R
+/MediaBox [0 0 864 648]
 >>
-endobj
-9 0 obj
-<</Type/XObject
-/Subtype/Image
+endobj 
+10 0 obj 
+<<
+/Subtype /Image
+/DecodeParms 
+<<
+/K -1
+/Rows 2700
+/Columns 3600
+>>
+/Type /XObject
+/Filter /CCITTFaxDecode
 /Width 3600
 /Height 2700
-/BitsPerComponent 1
-/ColorSpace/DeviceGray
-/Filter /CCITTFaxDecode
-/DecodeParms <</Columns 3600 /Rows 2700 /K -1>>
 /Length 292476
+/BitsPerComponent 1
+/ColorSpace /DeviceGray
 >>
 stream
 8àsÂ9ì€øŒrBBB@ğĞ91Î9Ç8ç˜çã“ã‘Lrcœr#¤T„GYkC,rœr¸r(ä8är9rÇ0çÃ˜saÎ9‡8çã„œsqÎ8 BqÊ!8ç¡ÂJ¡Î8A	Ç8çÃœsaÌ9Ç0æÃœsqÌ9Ç(saÎ9Ç0å‚"" ˆ B' „!DãœsXâEZI."CHqH"?ˆ Cduj¨)Ê@|	€´8BBÊy@|2CqÈChrœ®8à™C‚Hº!¡Ì9C¨ü´(r‡+’D|C„$tB""´²‡ ,ƒä¡(rœ§(r‡(r­$‘ti":Dò!Ğe-r!\D¨jaÊâ¸¡şI$’# ‚ÄRÒe®+
@@ -935,10 +950,20 @@ L¨I$A$¬ ­ ’¢‡(~"%e	ö‚´}¡$!tmB"ˆš!‚‚6 ‚ˆ „Dº#¢:0ˆèˆè ˜!#¢:‚’A
 I Iˆ„”9C„â-‰ÄNˆ´"‘ˆÑ„"a™¡Dº!0ŒÑta	„aBGBBB!""!"‘tGEĞA	„ I¤M ‘C”9Ç(p‚‚KB$¥	Õ	ô%"6„ò!œBq‰tˆ˜DtGDtB"GBGDtB$t%Ñ	Ñ‹D‚R@’I-4B,”91ĞAG‰öSD'šÑÄm By¡0t 	ä$t]Fä"}ˆˆA	„$t"Ba	‰Ñ‹)Ê²‡“‘„]¤’H „DJ …³²èú >ĞBNˆÚ4jB""a—B&ˆN!.‹¡@„ „ºèú!!‚:#¡#¡!#¦ˆ²‡*
 °„!!‚# ’A0„˜ç±ÄR/B"'ˆ‰Äq	V‰Ğ‰„h„HèDDHèHè„Dâ0::# ‚`„!0ˆèº!B	”åqP„Hè ˜A$Pá'DXÇ•hJ´K¡Z<„Dâèâ0„¡	t"GEÑôBB&Ğ‘ĞˆA‚Ê€„D˜&PáHè!	Aé
 ’L¨ãò:4q’ôyFô""] @„º.Œ#„DºDA:#¡#¢:èBBHè!# @„ „A`’H ‚I$’ÚT¸›DÚ"*„HÒ<!.„Ú>¡èÚ0„IĞ B"GB$tGA$t"BBIĞA	 MhC„I$“#¢:#†ÜAÄìmd-B}	©§GÑ„a‰ôy‚"CEÑ­B„˜G‘Ñ‰BGB"Ê§(p… @’HG-¦‘ğ‚i4"‘C„ˆ”:¥²èò<‰DDâ6„â3Baˆ‰„B%ÑäG@—B"G@ˆˆ‰Ğ BGDtGDt]A$I¡#á$’H@‚‡	/0âã¡ì¥h¢„jB'ˆQôqhú@„K¡:#£Ú#¡B# @„D$’I ‚”$G4’H, ‚	 ‚I$B!6PüDDHh—BaœFhòèO¢èL!8„¡Ñˆ B$tqÑA,EÑtM2‡(t’D|$H§	+A$H$XAa$…‘ğ™W 
-endstream
-endobj
-10 0 obj
-<</Length 11 0 R
+endstream 
+endobj 
+9 0 obj 
+<<
+/ProcSet [/PDF /ImageB]
+/XObject 
+<<
+/Im2 10 0 R
+>>
+>>
+endobj 
+11 0 obj 
+<<
+/Length 59
 >>
 stream
 0.24000 0 0 0.24000 0 0 cm
@@ -946,68 +971,63 @@ q
 3600 0 0 2700 0 0 cm
 /Im2 Do
 Q
-endstream
-endobj
-11 0 obj
-59
-endobj
-12 0 obj
-<</ProcSet[/PDF/ImageB]
-/XObject<</Im2 9 0 R>>
->>
-endobj
-13 0 obj
-<</Type/Page
+endstream 
+endobj 
+8 0 obj 
+<<
+/Resources 9 0 R
+/Rotate 90
+/Type /Page
 /Parent 1 0 R
-/Resources 12 0 R
-/MediaBox[0 0 864 648]
-/Contents 10 0 R
-/Rotate 0
+/Contents 11 0 R
+/MediaBox [0 0 864 648]
 >>
-endobj
-1 0 obj
-<</Type/Pages
+endobj 
+1 0 obj 
+<<
+/Kids [3 0 R 8 0 R]
+/Type /Pages
 /Count 2
-/Kids[8 0 R
-      13 0 R
-     ]
 >>
-endobj
-3 0 obj
-<</CreationDate(D:20180314114448-07'00')
-/ModDate(D:20180314114448-07'00')
-/Creator(RICOH MP C6004)
-/Producer(RICOH MP C6004)
->>
-endobj
-2 0 obj
-<</Type/Catalog
+endobj 
+13 0 obj 
+<<
+/Type /Catalog
 /Pages 1 0 R
 >>
-endobj
-%RRR010createpdf*001.00.200**********1000
-xref
-0 14
+endobj 
+14 0 obj 
+<<
+/ModDate (D:20180314115820-07'00')
+/CreationDate (D:20180314115820-07'00')
+/Creator (pdftk 2.02 - www.pdftk.com)
+/Producer (itext-paulo-155 \(itextpdf.sf.net-lowagie.com\))
+>>
+endobj xref
+0 15
 0000000000 65535 f 
-0000520128 00000 n 
-0000520345 00000 n 
-0000520201 00000 n 
+0000520142 00000 n 
+0000000000 65535 f 
+0000227009 00000 n 
+0000226823 00000 n 
 0000000015 00000 n 
-0000226813 00000 n 
-0000226924 00000 n 
-0000226942 00000 n 
-0000227007 00000 n 
-0000227118 00000 n 
-0000519816 00000 n 
-0000519929 00000 n 
-0000519948 00000 n 
-0000520014 00000 n 
+0000226897 00000 n 
+0000000000 65535 f 
+0000520024 00000 n 
+0000519836 00000 n 
+0000227127 00000 n 
+0000519911 00000 n 
+0000000000 65535 f 
+0000520207 00000 n 
+0000520259 00000 n 
 trailer
-<</Size 14
-/Info 3 0 R
-/Root 2 0 R
-/ID [<93dfc575fd9d9a13e90698de18810953><93dfc575fd9d9a13e90698de18810953>]
+
+<<
+/Info 14 0 R
+/ID [<765406630a21ff43baa1cebca63c63ad><11c3643c8dfc5debee68b248f3b395d9>]
+/Root 13 0 R
+/Size 15
 >>
 startxref
-520434
+520455
 %%EOF
