@@ -74,15 +74,29 @@ ignore = \override NoteColumn.ignore-collision = ##t
       fis4. b8[ fis b] |
       e,4. b'8[ e, b'] |
 %36
-      e,2 d4 |
-      e d b |
-      d e4. fis8 |
-      g2. |
-      fis4. d8[ fis a] |
+      <<e4 g, e>> <<d g d'>> b |
+      e8 d c b a gis |
+      f gis b d e d |
+      <<e,2 a d>> <<e,4 a c>> |
+      b'8 a f e d c |
+      bes as bes d f as |
+      d bes as f d as |
+      <<g2 as>> g4 |
+%44
+      <<g2 d'>> <<g,4 c>> |
+      es8 c as f as <<c es>> |
+      <<bes2 d>> <<d4 g>> |
+      <<es,2. g bes>> |
+      <<b, d g>> |
+      <<c, es g>> |
+      <<d f bes>> |
+      <<es, g bes>>
+%51
+      <<d, fis a c>> |
+      <<d, fis g b>> |
       c4. e8[ c e] |
       a,4. e'8[ a, e'] |
       fis,4. e'8[ fis, e'] |
-%44
       e,2 d4 |
       fis8[ e d e fis g] |
       a[ b c d e fis] |
@@ -90,10 +104,9 @@ ignore = \override NoteColumn.ignore-collision = ##t
       d4. d8[ e fis] |
       g4. b8[ g b] |
       fis4. b8[ fis b] |
-%51
       e,4. b'8[ e, b'] |
       e,2 d4 |
-      <<g b>> <<f b>> <<f b>> |
+      <<g b>> <<fis b>> <<f b>> |
       <<f b>> <<f4. c'>> <<d,8 f b>> |
       <<
       \new Voice = "first"
@@ -113,7 +126,8 @@ ignore = \override NoteColumn.ignore-collision = ##t
       <<b,2.~ d~ g~>> |
       <<b,8 d g^\markup {\italic "Fine"}>> r8 r8 a,^\markup {
 	  \italic "D.S. al coda"
-	}[ b cis] | \break
+	% }[ b cis] | \break
+	}[ b cis] |
       \key a \major d2.^\markup {\musicglyph #"scripts.coda"} |
       d4 r2 |
 %67
@@ -239,12 +253,26 @@ ignore = \override NoteColumn.ignore-collision = ##t
 %35
       e, g' g |
       d, g' g |
-      b, g' g |
-      g,^"?" g' g |
-      e, a'^"m?" a |
-      a, d'^"7" d |
-      d, d' d |
+      b, e^"7" e, |
+      d d'^"d" d |
+      e, a'^"m" a |
+      f, a'^"m" a |
+      as, bes'^"M" bes |
 %42
+      bes, bes'^"7" bes |
+      c, c'^"m" c |
+      es, c' c |
+      f,, as'^"M" as |
+      bes, bes' <<as, bes'^"M">> |
+      <<es,,2. es'>> |
+      g4^"B.S." fis f |
+      es d c |
+      bes' a as |
+      g f es |
+%51
+      d e fis |
+      g a b |
+      d, d'^"7" d |
       fis,, d'' d |
       d, d' d |
       a, d' d |
@@ -254,7 +282,6 @@ ignore = \override NoteColumn.ignore-collision = ##t
       g, g' g |
       g, g' g |
       fis, g' g |
-%51
       e, g' g |
       d, g' g |
       f, g' g |
@@ -269,7 +296,7 @@ ignore = \override NoteColumn.ignore-collision = ##t
       c, d' d |
       d, d'^"7" d |
       g,, d b' |
-      g2. \bar "||"
+      g r2 \bar "||"
 %65
       \key a \major d4 d' d |
       d, d' d |
