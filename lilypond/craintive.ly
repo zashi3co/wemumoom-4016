@@ -3,7 +3,7 @@
 \header {
   title = "Craintive"
   subtitle = "Valse Musette"
-  composer = "P. Muler and F. Silvestri"
+  composer = "P. Muler, F. Silvestri, S. Lukits"
 }
 
 ignore = \override NoteColumn.ignore-collision = ##t
