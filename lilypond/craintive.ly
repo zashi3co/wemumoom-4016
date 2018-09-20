@@ -17,7 +17,7 @@ ignore = \override NoteColumn.ignore-collision = ##t
       \set Score.alternativeNumberingStyle = #'numbers
       \partial 4.
       {a8 b cis} \bar "||" d4.\segno {a8 fis a} |
-      cis4. {a8 fis a} |
+      cis4.^\markup{"alt: do not descend in bass"} {a8 fis a} |
       b4. {a8 fis b} |
       a2 a4 |
       {b8 a fis a b a} |
@@ -241,8 +241,8 @@ ignore = \override NoteColumn.ignore-collision = ##t
       d, d' d |
       a, d' d |
 %7
-      e,, e'^"m" e |
-      e, a'^"7" a |
+      a, e'^"m" e |
+      a, a'^"7" a |
       e, e'^"m" d, |
       cis' a'^"7" a, |
       e e'^"m" e |
@@ -262,16 +262,16 @@ ignore = \override NoteColumn.ignore-collision = ##t
       d, d'^"7" d |
       g,, g'^"M" g |
       e, e'^"m" e |
-      b g'^"M" g |
-      gis, e'^"7" e |
+      g, g'^"M" g |
+      gis, d'^"d" d |
 %27
-      a, d^"M" d |
-      d, d' d |
+      a d^"M" d |
+      b d d |
       e, a'^"7" a |
       a, a' a |
-      d, a fis |
-      d' r2 \bar "||"
-      \key g \major g,4 g' g |
+      r <<d, g^"M">> <<d g^"m">> |
+      <<d2 d'^"M">> r4 \bar "||"
+      \key g \major g,, g' g |
       fis, g' g |
 %35
       e, g' g |
