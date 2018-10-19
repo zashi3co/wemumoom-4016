@@ -17,7 +17,8 @@ ignore = \override NoteColumn.ignore-collision = ##t
       \set Score.alternativeNumberingStyle = #'numbers
       \partial 4.
       {a8 b cis} \bar "||" d4.\segno {a8 fis a} |
-      cis4.^\markup{"alt: do not descend in bass"} {a8 fis a} |
+      % cis4.^\markup{"alt: do not descend in bass"} {a8 fis a} |
+      cis4. {a8 fis a} |
       b4. {a8 fis b} |
       a2 a4 |
       {b8 a fis a b a} |
@@ -50,7 +51,8 @@ ignore = \override NoteColumn.ignore-collision = ##t
       { \voiceOne b'2.( | b) }
       >> |
       d,4 cis b |
-      d4.^\markup {"alt (*)"} cis8[ b cis] |
+      % d4.^\markup {"alt (*)"} cis8[ b cis] |
+      d4. cis8[ b cis] |
       fis4. d8[ a fis] |
       d2 a'4 |
 %29
@@ -71,7 +73,8 @@ ignore = \override NoteColumn.ignore-collision = ##t
       { \voiceTwo fis2.~ | fis4 }
       >> r8 d8[ e fis] \bar "||"
       \key g \major g4. b8[ g b] |
-      fis4.^\markup{"alt (***)"} b8[ fis b] |
+      % fis4.^\markup{"alt (***)"} b8[ fis b] |
+      fis4. b8[ fis b] |
       e,4. b'8[ e, b'] |
 %36
       <<e4 g, e>> <<d g d'>> b |
@@ -83,7 +86,8 @@ ignore = \override NoteColumn.ignore-collision = ##t
       d bes as f d as |
       <<g2 as>> g4 |
 %44
-      <<g2^\markup{"alt (**)"} d'>> <<g,4 c>> |
+      <<g2 d'>> <<g,4 c>> |
+      % <<g2^\markup{"alt (**)"} d'>> <<g,4 c>> |
       es8 c as f as <<c es>> |
       <<bes2 d>> <<d4 g>> |
       <<g,2. bes es>> |
@@ -152,7 +156,7 @@ ignore = \override NoteColumn.ignore-collision = ##t
       { \voiceTwo fis2.~ | fis4 }
       >> r2 |
 %83
-      <<cis'2. a'>> |
+      <<cis'2. a'^\markup{"add musette"}>> |
       <<a,2 cis>> <<cis4 fis>> |
       <<bis,2. fis'>> |
       <<cis e>> |
@@ -224,18 +228,19 @@ ignore = \override NoteColumn.ignore-collision = ##t
       <<cis,2.~ a'~>> |
       <<cis,4 a'>> r8 a,^\markup {
 	  \italic "D.S. al fine"
-	}[ b cis] \bar "||" \break
-	  \key d \major  d4.^\markup{"(*)"} cis8[ b cis] \bar "||"
-	  \key g \major <<g2^\markup{"(**)"} d'>> <<g,4 c>> \bar "||"
-	  dis,4.^\markup{"(***)"} b'8[ a fis]  |
-	  <<e4. g>> <<e8[ g>> <<fis a>> <<gis b]>> |
-      <<
-      \new Voice = "first"
-      { \voiceOne  e8[ d c b a gis] }
-      \new Voice = "second"
-      { \voiceTwo  b4 gis e }
-    >>  \bar "||" 
-	  { \repeat unfold 1 { s1 } } \bar "||" 
+	}[ b cis] \bar "||"
+    % 	  \break
+    % 	  \key d \major  d4.^\markup{"(*)"} cis8[ b cis] \bar "||"
+    % 	  \key g \major <<g2^\markup{"(**)"} d'>> <<g,4 c>> \bar "||"
+    % 	  dis,4.^\markup{"(***)"} b'8[ a fis]  |
+    % 	  <<e4. g>> <<e8[ g>> <<fis a>> <<gis b]>> |
+    %   <<
+    %   \new Voice = "first"
+    %   { \voiceOne  e8[ d c b a gis] }
+    %   \new Voice = "second"
+    %   { \voiceTwo  b4 gis e }
+    % >>  \bar "||" 
+    % 	  { \repeat unfold 1 { s1 } } \bar "||" 
   }
   }
 
@@ -324,7 +329,7 @@ ignore = \override NoteColumn.ignore-collision = ##t
       a4 d' d |
       fis,, d'' d |
       d,, g' g |
-      g, g' g |
+      b, g' g |
       g, g' g |
       fis, g' g |
       e, g' g |
@@ -341,11 +346,11 @@ ignore = \override NoteColumn.ignore-collision = ##t
       c, d' d |
       d, d'^"7" d |
       g,, d b' |
-      g r2 \bar "||"
+      <<g g'>> r2 \bar "||"
 %78
-      \key a \major d'4 a fis |
-      d' r2 |
-      a4 a'^"M" a |
+      \key a \major d4 a fis |
+      <<d' d,>> r2 |
+      a'4 a'^"M" a |
       e, a' a |
 %85
       a, a'^"d" a |
@@ -369,9 +374,9 @@ ignore = \override NoteColumn.ignore-collision = ##t
       e, a'^"M" a |
       cis, a' a |
       a, a'^"7" a |
-      d,, d'^"M" d |
+      fis, d'^"M" d |
 %103
-      fis, d' d |
+      d, d' d |
       fis, b'^"m" b |
       b, d'^"M" d |
       a, a' a |
@@ -380,12 +385,12 @@ ignore = \override NoteColumn.ignore-collision = ##t
       e, e' e |
       a, e cis' |
       a r2 \bar "||"
-      \key d \major g4 g'^"M" g \bar "||"
-      \key g \major bes, c' c \bar "||"
-      b, b'^\markup{"7"} b |
-      e,, e'^\markup{"m"} e |
-      gis, e'^\markup{"7"} e, \bar "||"
-      { \repeat unfold 1 { s1 } } \bar "||" 
+      % \key d \major g4 g'^"M" g \bar "||"
+      % \key g \major bes, c' c \bar "||"
+      % b, b'^\markup{"7"} b |
+      % e,, e'^\markup{"m"} e |
+      % gis, e'^\markup{"7"} e, \bar "||"
+      % { \repeat unfold 1 { s1 } } \bar "||" 
 }
 >>
 }
